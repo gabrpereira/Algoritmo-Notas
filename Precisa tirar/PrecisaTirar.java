@@ -12,7 +12,7 @@ public class PrecisaTirar{
 		double notaFinal = 14.00 - primeiraNota;
 
 		if(notaFinal > 10){
-			System.out.printf("\nVocê precisa tirar %.2f na segunda nota. Você já está REPROVADO!", notaFinal);
+			System.out.printf("\nVocê precisa tirar %.2f na segunda nota. Você já está em RECUPERAÇÃO!", notaFinal);
 		} else {
 			System.out.printf("\nVocê precisa tirar %.2f na segunda nota.", notaFinal);
 		}
